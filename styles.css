@@ -10,10 +10,6 @@ div form input {
 	padding: 250px 250px 0px 250px;
 }
 
-center {
-	float: clear;
-}
-
 li a {
 	text-decoration: none;
 }
@@ -21,25 +17,39 @@ li a {
 li {
 	display: inline;
 	margin: 30px;
-
 }
 
 #top_right {
 	float: right;
 }
 
-div#bottom_right.nav {
-	float: right;
+div.nav#bottom {
 	bottom: 0;
-	position: relative;
-	background-color: #f5f4f4;
-}
-
-div#bottom_left.nav {
-	margin-top: 100px;
-	float: left;
 	position: absolute;
-	bottom: 0;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
 	background-color: #f5f4f4;
 }
+span#left {
+	float: left;
+	width: 50%;
+}
 
+span#right {
+	float: right;
+	width: 50%;
+}
+
+#right ul {
+	float: right;
+}
+
+body {
+	min-height: 100%;
+	position: relative;
+}
+
+html {
+	height: 100%;
+}
